@@ -1,0 +1,3 @@
+col_dep: Contests.gold_medal != Contest.silver_medal;
+         Contests.silver_medal != Contest.bronze_medal;
+         Contests.bronze_medal != Contest.gold_medal

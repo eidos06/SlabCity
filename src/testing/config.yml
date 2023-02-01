@@ -1,0 +1,15 @@
+problem: 1050
+# path
+schema_path: "../../../benchmarks/LeetCode/schemas"
+constraint_path: "../../testing/constraints"
+sizes: [300, 300, 300, 300] # size of each table in testing database
+trials: 50          # maximum number of trials that the tester can try if use random 
+ordered: False           # if the order of rows in the output matter
+
+tester:
+  log_seed: True
+  psql:
+    dbname: testing
+    username: vldb
+    password: VLDB2022
+    host: localhost

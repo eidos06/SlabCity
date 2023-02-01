@@ -1,0 +1,22 @@
+{
+  "Problem Number": "586",
+  "Tables": [
+    {
+      "TableName": "orders",
+      "PKeys": [
+        {
+          "Name": "order_number",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "customer_number",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

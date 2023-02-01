@@ -1,0 +1,26 @@
+{
+  "Problem Number": "1164",
+  "Tables": [
+    {
+      "TableName": "Products",
+      "PKeys": [
+        {
+          "Name": "product_id",
+          "Type": "int"
+        },
+        {
+          "Name": "change_date",
+          "Type": "date"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "new_price",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

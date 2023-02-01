@@ -1,0 +1,1 @@
+col_dep: survey_log.action != answer => survey_log.answer_id = null

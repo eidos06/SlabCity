@@ -1,0 +1,22 @@
+{
+  "Problem Number": "180",
+  "Tables": [
+    {
+      "TableName": "Logs",
+      "PKeys": [
+        {
+          "Name": "Id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "Num",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

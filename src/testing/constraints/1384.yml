@@ -1,0 +1,1 @@
+col_dep: Sales.period_start < Sales.period_end

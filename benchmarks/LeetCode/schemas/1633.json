@@ -1,0 +1,41 @@
+{
+    "Problem Number": "1633",
+    "Tables": [
+      {
+        "TableName": "Users",
+        "PKeys": [          {
+            "Name": "user_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "user_name",
+            "Type": "varchar"
+          }
+        ]
+      },
+      {
+        "TableName": "Register",
+        "PKeys": [          {
+            "Name": "contest_id",
+            "Type": "int"
+          },
+          {
+            "Name": "user_id",
+            "Type": "int"
+          }],
+        "FKeys": [
+          {
+            "FName": "user_id",
+            "PName": "user_id",
+            "PTable": "0"
+          }
+        ],
+        "Others": [
+
+        ]
+      }
+    ],
+    "Tuples": []
+  }

@@ -1,0 +1,50 @@
+{
+    "Problem Number": "1571",
+    "Tables": [
+      {
+        "TableName": "Warehouse",
+        "PKeys": [          {
+            "Name": "name",
+            "Type": "varchar"
+          },
+          {
+            "Name": "product_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "units",
+            "Type": "int"
+          }
+        ]
+      },
+      {
+        "TableName": "Products",
+        "PKeys": [          {
+            "Name": "product_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "product_name",
+            "Type": "varchar"
+          },
+          {
+            "Name": "Width",
+            "Type": "int"
+          },
+          {
+            "Name": "Length",
+            "Type": "int"
+          },
+          {
+            "Name": "Height",
+            "Type": "int"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

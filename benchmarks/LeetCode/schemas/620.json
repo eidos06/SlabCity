@@ -1,0 +1,30 @@
+{
+  "Problem Number": "620",
+  "Tables": [
+    {
+      "TableName": "cinema",
+      "PKeys": [
+        {
+          "Name": "id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "movie",
+          "Type": "varchar"
+        },
+        {
+          "Name": "description",
+          "Type": "varchar"
+        },
+        {
+          "Name": "rating",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

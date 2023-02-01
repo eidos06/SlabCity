@@ -1,0 +1,48 @@
+{
+  "Problem Number": "184",
+  "Tables": [
+    {
+      "TableName": "Employee",
+      "PKeys": [
+        {
+          "Name": "Id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [
+        {
+          "FName": "DepartmentId",
+          "PName": "Id",
+          "PTable": "1"
+        }
+      ],
+      "Others": [
+        {
+          "Name": "Name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "Salary",
+          "Type": "int"
+        }
+      ]
+    },
+    {
+      "TableName": "Department",
+      "PKeys": [
+        {
+          "Name": "Id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "Name",
+          "Type": "varchar"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

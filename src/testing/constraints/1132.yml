@@ -1,0 +1,2 @@
+col_dep: Actions.action != report => Actions.extra = null;
+         Removals.post_id <- Actions.post_id

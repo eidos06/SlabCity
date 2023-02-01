@@ -1,0 +1,20 @@
+{
+    "Problem Number": "1729",
+    "Tables": [
+      {
+        "TableName": "Followers",
+        "PKeys": [          {
+            "Name": "user_id",
+            "Type": "int"
+          },
+          {
+            "Name": "follower_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+        ]
+      }
+    ],
+    "Tuples": []
+  }

@@ -1,0 +1,47 @@
+{
+  "Problem Number": "1327",
+  "Tables": [
+    {
+      "TableName": "Products",
+      "PKeys": [
+        {
+          "Name": "product_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "product_name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "product_category",
+          "Type": "varchar"
+        }
+      ]
+    },
+    {
+      "TableName": "Orders",
+      "PKeys": [],
+      "FKeys": [
+        {
+          "FName": "product_id",
+          "PName": "product_id",
+          "PTable": "0"
+        }
+      ],
+      "Others": [
+        {
+          "Name": "order_date",
+          "Type": "date"
+        },
+        {
+          "Name": "unit",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

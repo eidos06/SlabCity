@@ -1,0 +1,52 @@
+{
+  "Problem Number": "1098",
+  "Tables": [
+    {
+      "TableName": "Books",
+      "PKeys": [
+        {
+          "Name": "book_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "available_from",
+          "Type": "date"
+        }
+      ]
+    },
+    {
+      "TableName": "Orders",
+      "PKeys": [
+        {
+          "Name": "order_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [
+        {
+          "FName": "book_id",
+          "PName": "book_id",
+          "PTable": "0"
+        }
+      ],
+      "Others": [
+        {
+          "Name": "quantity",
+          "Type": "int"
+        },
+        {
+          "Name": "dispatch_date",
+          "Type": "date"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

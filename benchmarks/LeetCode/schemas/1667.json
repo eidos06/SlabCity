@@ -1,0 +1,20 @@
+{
+    "Problem Number": "1667",
+    "Tables": [
+      {
+        "TableName": "Users",
+        "PKeys": [          {
+            "Name": "user_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "name",
+            "Type": "varchar"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

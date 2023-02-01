@@ -1,0 +1,40 @@
+{
+  "Problem Number": "1355",
+  "Tables": [
+    {
+      "TableName": "Friends",
+      "PKeys": [
+        {
+          "Name": "id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "activity",
+          "Type": "varchar"
+        }
+      ]
+    },
+    {
+      "TableName": "Activities",
+      "PKeys": [
+        {
+          "Name": "id",
+          "Type": "int"
+        },
+        {
+          "Name": "name",
+          "Type": "varchar"
+        }
+      ],
+      "FKeys": [],
+      "Others": []
+    }
+  ]
+}

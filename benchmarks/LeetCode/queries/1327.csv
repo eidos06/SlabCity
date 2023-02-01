@@ -1,0 +1,2 @@
+149,"select p.product_name as product_name, o.sum_unit as unit from products as p join (select product_id, sum(unit) as sum_unit from orders where (order_date >= '2020-02-01' and order_date < '2020-03-01') group by product_id) as o on p.product_id = o.product_id where o.sum_unit >= 100"
+312,"select x.product_name, y.s as unit from products as x join (select product_id, sum(unit) as s from orders where (order_date >= '2020-02-01' and order_date < '2020-03-01') group by product_id) as y on x.product_id = y.product_id where y.s >= 100"

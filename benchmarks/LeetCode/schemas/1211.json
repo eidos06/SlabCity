@@ -1,0 +1,29 @@
+{
+  "Problem Number": "1211",
+  "Tables": [
+    {
+      "TableName": "Queries",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "query_name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "result",
+          "Type": "varchar"
+        },
+        {
+          "Name": "position",
+          "Type": "int"
+        },
+        {
+          "Name": "rating",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

@@ -1,0 +1,36 @@
+{
+  "Problem Number": "1264",
+  "Tables": [
+    {
+      "TableName": "Friendship",
+      "PKeys": [
+        {
+          "Name": "user1_id",
+          "Type": "int"
+        },
+        {
+          "Name": "user2_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": []
+    },
+    {
+      "TableName": "Likes",
+      "PKeys": [
+        {
+          "Name": "user_id",
+          "Type": "int"
+        },
+        {
+          "Name": "page_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": []
+    }
+  ],
+  "Tuples": []
+}

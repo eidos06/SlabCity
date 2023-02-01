@@ -1,0 +1,21 @@
+{
+    "Problem Number": "1709",
+    "Tables": [
+      {
+        "TableName": "UserVisits",
+        "PKeys": [],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "user_id",
+            "Type": "int"
+          },
+          {
+            "Name": "visit_date",
+            "Type": "date"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

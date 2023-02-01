@@ -1,0 +1,61 @@
+{
+  "Problem Number": "262",
+  "Tables": [
+    {
+      "TableName": "Trips",
+      "PKeys": [
+        {
+          "Name": "Id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [
+        {
+          "FName": "Client_Id",
+          "PName": "Users_Id",
+          "PTable": "1"
+        },
+        {
+          "FName": "Driver_Id",
+          "PName": "Users_Id",
+          "PTable": "1"
+        }
+      ],
+      "Others": [
+        {
+          "Name": "City_Id",
+          "Type": "int"
+        },
+        {
+          "Name": "Status",
+          "Type": "enum,completed,cancelled_by_driver,cancelled_by_client"
+        },
+        {
+          "Name": "Request_at",
+          "Type": "date"
+        }
+      ]
+    },
+    {
+      "TableName": "Users",
+      "PKeys": [
+        {
+          "Name": "Users_Id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "Banned",
+          "Type": "enum,Yes,No"
+        },
+        {
+          "Name": "Role",
+          "Type": "enum,client,driver,partner"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

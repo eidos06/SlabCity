@@ -1,0 +1,28 @@
+{
+    "Problem Number": "1777",
+    "Tables": [
+      {
+        "TableName": "Products",
+        "PKeys": [
+          {
+            "Name": "product_id",
+            "Type": "int"
+          },
+          {
+            "Name": "store",
+            "Type": "enum,store1,store2,store3"
+          }
+        ],
+        "FKeys": [],
+        "Others": [
+            {
+                "Name":"price",
+                "Type":"int"
+            }
+        ]
+      }
+    ],
+    "Tuples": [
+    ]
+  
+  }

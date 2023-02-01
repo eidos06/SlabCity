@@ -1,0 +1,2 @@
+class SharedConnection:
+    conn = None

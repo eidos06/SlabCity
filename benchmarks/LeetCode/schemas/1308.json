@@ -1,0 +1,30 @@
+{
+  "Problem Number": "1308",
+  "Tables": [
+    {
+      "TableName": "Scores",
+      "PKeys": [
+        {
+          "Name": "gender",
+          "Type": "enum,F,M"
+        },
+        {
+          "Name": "day",
+          "Type": "date"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "player_name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "score_points",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

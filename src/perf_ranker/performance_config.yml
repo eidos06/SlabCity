@@ -1,0 +1,6 @@
+host: "localhost"
+user_name: "vldb"
+password: "VLDB2023"
+dbname: "leetcode_perfrank"
+schema_name: "to be generated during testing"
+ordered: False

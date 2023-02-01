@@ -1,0 +1,22 @@
+{
+  "Problem Number": "177",
+  "Tables": [
+    {
+      "TableName": "Employee",
+      "PKeys": [
+        {
+          "Name": "Id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "Salary",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

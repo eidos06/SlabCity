@@ -1,0 +1,2 @@
+col_val: Weather.weather_state <- [-10,50];
+         Weather.day -> {2019-11-01}

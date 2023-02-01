@@ -1,0 +1,30 @@
+{
+  "Problem Number": "1127",
+  "Tables": [
+    {
+      "TableName": "Spending",
+      "PKeys": [
+        {
+          "Name": "user_id",
+          "Type": "int"
+        },
+        {
+          "Name": "spend_date",
+          "Type": "date"
+        },
+        {
+          "Name": "platform",
+          "Type": "enum,desktop,mobile"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "amount",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

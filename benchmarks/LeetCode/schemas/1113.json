@@ -1,0 +1,34 @@
+{
+  "Problem Number": "1113",
+  "Tables": [
+    {
+      "TableName": "Actions",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "user_id",
+          "Type": "int"
+        },
+        {
+          "Name": "post_id",
+          "Type": "int"
+        },
+        {
+          "Name": "action_date",
+          "Type": "date"
+        },
+        {
+          "Name": "action",
+          "Type": "enum,view,like,reaction,comment,report,share"
+        },
+        {
+          "Name": "extra",
+          "Type": "varchar"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}
+

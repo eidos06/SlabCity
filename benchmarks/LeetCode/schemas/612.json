@@ -1,0 +1,21 @@
+{
+  "Problem Number": "612",
+  "Tables": [
+    {
+      "TableName": "point_2d",
+      "PKeys": [
+        {
+          "Name": "x",
+          "Type": "int"
+        },
+        {
+          "Name": "y",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": []
+    }
+  ],
+  "Tuples": []
+}

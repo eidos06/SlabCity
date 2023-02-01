@@ -1,0 +1,30 @@
+{
+  "Problem Number": "512",
+  "Tables": [
+    {
+      "TableName": "Activity",
+      "PKeys": [
+        {
+          "Name": "player_id",
+          "Type": "int"
+        },
+        {
+          "Name": "event_date",
+          "Type": "date"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "device_id",
+          "Type": "int"
+        },
+        {
+          "Name": "games_played",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

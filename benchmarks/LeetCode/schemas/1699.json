@@ -1,0 +1,25 @@
+{
+    "Problem Number": "1699",
+    "Tables": [
+      {
+        "TableName": "Calls",
+        "PKeys": [],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "from_id",
+            "Type": "int"
+          },
+          {
+            "Name": "to_id",
+            "Type": "int"
+          },
+          {
+            "Name": "duration",
+            "Type": "int"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

@@ -1,0 +1,48 @@
+{
+    "Problem Number": "1623",
+    "Tables": [
+      {
+        "TableName": "SchoolA",
+        "PKeys": [          {
+            "Name": "student_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "student_name",
+            "Type": "varchar"
+          }
+        ]
+      },
+      {
+        "TableName": "SchoolB",
+        "PKeys": [          {
+            "Name": "student_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "student_name",
+            "Type": "varchar"
+          }
+        ]
+      },
+      {
+        "TableName": "SchoolC",
+        "PKeys": [          {
+            "Name": "student_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "student_name",
+            "Type": "varchar"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

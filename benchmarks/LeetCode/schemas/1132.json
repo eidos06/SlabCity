@@ -1,0 +1,49 @@
+{
+  "Problem Number": "1132",
+  "Tables": [
+    {
+      "TableName": "Actions",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "user_id",
+          "Type": "int"
+        },
+        {
+          "Name": "post_id",
+          "Type": "int"
+        },
+        {
+          "Name": "action_date",
+          "Type": "date"
+        },
+        {
+          "Name": "action",
+          "Type": "enum,view,like,reaction,comment,report,share"
+        },
+        {
+          "Name": "extra",
+          "Type": "enum,spam,racism,null"
+        }
+      ]
+    },
+    {
+      "TableName": "Removals",
+      "PKeys": [
+        {
+          "Name": "post_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "remove_date",
+          "Type": "date"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

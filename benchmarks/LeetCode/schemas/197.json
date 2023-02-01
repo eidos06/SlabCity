@@ -1,0 +1,26 @@
+{
+  "Problem Number": "197",
+  "Tables": [
+    {
+      "TableName": "Weather",
+      "PKeys": [
+        {
+          "Name": "id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "recordDate",
+          "Type": "date"
+        },
+        {
+          "Name": "temperature",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

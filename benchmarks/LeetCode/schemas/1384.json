@@ -1,0 +1,42 @@
+{
+    "Problem Number": "1384",
+    "Tables": [
+      {
+        "TableName": "Product",
+        "PKeys": [          {
+            "Name": "product_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "product_name",
+            "Type": "varchar"
+          }
+        ]
+      },
+      {
+        "TableName": "Sales",
+        "PKeys": [          {
+            "Name": "product_id",
+            "Type": "varchar"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "period_start",
+            "Type": "date"
+          },
+          {
+            "Name": "period_end",
+            "Type": "date"
+          },
+          {
+            "Name": "average_daily_sales",
+            "Type": "int"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

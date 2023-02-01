@@ -1,0 +1,25 @@
+{
+  "Problem Number": "610",
+  "Tables": [
+    {
+      "TableName": "triangle",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "x",
+          "Type": "int"
+        },
+        {
+          "Name": "y",
+          "Type": "int"
+        },
+        {
+          "Name": "z",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

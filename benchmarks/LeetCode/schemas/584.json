@@ -1,0 +1,27 @@
+{
+  "Problem Number": "584",
+  "Tables": [
+    {
+      "TableName": "customer",
+      "PKeys": [
+        {
+          "Name": "id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "referee_id",
+          "Type": "int",
+          "Value": "2"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

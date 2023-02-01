@@ -1,0 +1,50 @@
+{
+    "Problem Number": "1677",
+    "Tables": [
+      {
+        "TableName": "Product",
+        "PKeys": [          {
+            "Name": "product_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "name",
+            "Type": "varchar"
+          }
+        ]
+      },
+      {
+        "TableName": "Invoice",
+        "PKeys": [          {
+            "Name": "invoice_id",
+            "Type": "int"
+          }],
+        "FKeys": [    {
+            "FName": "product_id",
+            "PName": "product_id",
+            "PTable": "0"
+          }],
+        "Others": [
+          {
+            "Name": "rest",
+            "Type": "int"
+          },
+          {
+            "Name": "paid",
+            "Type": "int"
+          },
+          {
+            "Name": "canceled",
+            "Type": "int"
+          },
+          {
+            "Name": "refunded",
+            "Type": "int"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

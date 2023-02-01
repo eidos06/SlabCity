@@ -1,0 +1,32 @@
+{
+    "Problem Number": "1747",
+    "Tables": [
+      {
+        "TableName": "LogInfo",
+        "PKeys": [],
+        "FKeys": [],
+        "Others": [
+            {
+                "Name": "account_id",
+                "Type": "int"
+              },
+
+            {
+                "Name":"ip_address",
+                "Type":"int"
+            },
+            {
+                "Name":"login",
+                "Type":"time"
+            },
+            {
+                "Name":"logout",
+                "Type":"time"
+            }
+        ]
+      }
+    ],
+    "Tuples": [
+    ]
+  
+  }

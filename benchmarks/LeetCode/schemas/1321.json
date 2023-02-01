@@ -1,0 +1,30 @@
+{
+  "Problem Number": "1321",
+  "Tables": [
+    {
+      "TableName": "Customer",
+      "PKeys": [
+        {
+          "Name": "customer_id",
+          "Type": "int"
+        },
+        {
+          "Name": "visited_on",
+          "Type": "date"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "amount",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

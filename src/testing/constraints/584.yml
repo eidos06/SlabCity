@@ -1,0 +1,3 @@
+col_dep: customer.referee_id <- customer.id
+col_val: customer.referee_id | int+null;
+         customer.id -> {2}

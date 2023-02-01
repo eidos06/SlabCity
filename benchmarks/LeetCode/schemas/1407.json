@@ -1,0 +1,38 @@
+{
+    "Problem Number": "1407",
+    "Tables": [
+      {
+        "TableName": "Users",
+        "PKeys": [          {
+            "Name": "id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "name",
+            "Type": "varchar"
+          }
+        ]
+      },
+      {
+        "TableName": "Rides",
+        "PKeys": [          {
+            "Name": "id",
+            "Type": "int"
+          }],
+        "FKeys": [          {
+            "FName": "user_id",
+            "PName": "id",
+            "PTable": "0"
+          }],
+        "Others": [
+          {
+            "Name": "distance",
+            "Type": "int"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

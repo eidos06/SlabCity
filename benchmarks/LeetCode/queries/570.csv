@@ -1,0 +1,27 @@
+10,select e2.name from (select managerid from employee group by managerid having count(id) >= 5) as e1 join employee as e2 on e2.id = e1.managerid
+12,select manager.name from employee as manager left outer join employee on employee.managerid = manager.id group by manager.id having count(manager.id) >= 5
+17,select name from employee as t1 join (select managerid from employee group by managerid having count(managerid) >= 5) as t2 on t1.id = t2.managerid
+35,"select name from employee as m join (select managerid, count(id) as c from employee group by 1) as e on (m.id = e.managerid and c >= 5)"
+45,select e1.name from employee as e1 left outer join employee as e2 on e1.id = e2.managerid group by e1.id having count(e2.id) >= 5
+56,select e2.name from employee as e1 join employee as e2 on e1.managerid = e2.id group by e2.id having count(e2.id) >= 5
+62,select name from employee join (select managerid from employee group by 1 having count(name) >= 5) as t1 on employee.id = t1.managerid
+64,select name from employee as l join (select managerid from employee group by managerid having count(managerid) >= 5) as r on l.id = r.managerid
+85,select employee.name as name from (select distinct managerid from employee group by managerid having count(distinct id) >= 5) as a join employee on a.managerid = employee.id
+88,"select name from (select e1.id, e1.name, count(distinct e2.id) as direct_report_count from employee as e1 left outer join employee as e2 on e2.managerid = e1.id group by 1, 2) as a where direct_report_count >= 5"
+93,select name from employee as e1 join (select managerid from employee group by managerid having count(managerid) >= 5) as e2 on e1.id = e2.managerid
+94,"select name from employee as e join (select managerid, count(id) as direct_cnt from employee group by 1) as tbl on (e.id = tbl.managerid and tbl.direct_cnt >= 5)"
+115,select a.name from employee as a join (select managerid from employee group by managerid having count(distinct id) >= 5) as b on a.id = b.managerid
+117,select a.name from employee as a join employee as b on a.id = b.managerid group by a.id having count(b.managerid) >= 5
+123,select b.name from employee as a left outer join employee as b on a.managerid = b.id group by b.id having count(b.id) >= 5
+140,select e.name from (select managerid as id from employee group by managerid having count(id) >= 5) as a join employee as e on a.id = e.id
+141,"select e.name from employee as e join (select managerid, count(id) as rep from employee group by 1 having count(id) >= 5) as a on a.managerid = e.id"
+143,"select e.name from employee as e join (select managerid, count(id) as cnt from employee group by managerid having count(id) >= 5) as sq on e.id = sq.managerid"
+151,select e1.name from employee as e1 join (select managerid from employee group by managerid having count(managerid) > 4) as e2 on e1.id = e2.managerid
+155,select e1.name from employee as e1 join employee as e2 on e2.managerid = e1.id group by e1.id having count(e2.id) >= 5
+159,select e2.name from employee as e1 join employee as e2 on e1.managerid = e2.id group by e2.id having count(distinct e1.id) >= 5
+160,select e2.name from employee as e1 join employee as e2 on e1.managerid = e2.id group by e2.id having count(e1.id) >= 5
+165,"select e2.name from employee as e1 join employee as e2 on e1.managerid = e2.id group by e2.id, e2.name having count(e1.id) >= 5"
+172,select e2.name from employee as e1 left outer join employee as e2 on e1.managerid = e2.id group by e2.id having count(e2.id) >= 5
+184,select name from employee as a join (select managerid from employee group by 1 having count(id) >= 5) as t on a.id = t.managerid
+194,select name from employee as a join (select managerid from employee group by managerid having count(managerid) >= 5) as b on a.id = b.managerid
+195,select name from employee as a join (select managerid from employee group by managerid having count(managerid) > 4) as b on a.id = b.managerid

@@ -1,0 +1,25 @@
+{
+  "Problem Number": "1107",
+  "Tables": [
+    {
+      "TableName": "Traffic",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "user_id",
+          "Type": "int"
+        },
+        {
+          "Name": "activity",
+          "Type": "enum,login,logout,jobs,groups,homepage"
+        },
+        {
+          "Name": "activity_date",
+          "Type": "date"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

@@ -1,0 +1,29 @@
+  
+{
+    "Problem Number": "1565",
+    "Tables": [
+      {
+        "TableName": "Orders",
+        "PKeys": [          {
+            "Name": "order_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "order_date",
+            "Type": "date"
+          },
+          {
+            "Name": "customer_id",
+            "Type": "int"
+          },
+          {
+            "Name": "invoice",
+            "Type": "int"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

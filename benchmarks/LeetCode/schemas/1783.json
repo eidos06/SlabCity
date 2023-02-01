@@ -1,0 +1,54 @@
+{
+    "Problem Number": "1783",
+    "Tables": [
+      {
+        "TableName": "Players",
+        "PKeys": [
+          {
+            "Name": "player_id",
+            "Type": "int"
+          }
+        ],
+        "FKeys": [],
+        "Others": [
+            {
+                "Name":"player_name",
+                "Type":"varchar"
+            }
+        ]
+      },
+      {
+        "TableName": "Championships",
+        "PKeys": [
+          {
+            "Name": "year",
+            "Type": "int"
+          }
+        ],
+        "FKeys": [{
+            "FName": "Wimbledon",
+            "PName": "player_id",
+            "PTable": "0"
+        },
+        {
+            "FName": "Fr_open",
+            "PName": "player_id",
+            "PTable": "0"
+        },
+        {
+            "FName": "US_open",
+            "PName": "player_id",
+            "PTable": "0"
+        },
+        {
+            "FName": "Au_open",
+            "PName": "player_id",
+            "PTable": "0"
+        }],
+        "Others": []
+      }
+    ],
+    "Tuples": [
+    ]
+  
+  }

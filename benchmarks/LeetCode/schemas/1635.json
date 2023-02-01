@@ -1,0 +1,72 @@
+{
+  "Problem Number": "1635",
+  "Tables": [
+    {
+      "TableName": "Drivers",
+      "PKeys": [
+        {
+          "Name": "driver_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "join_date",
+          "Type": "date"
+        }
+      ]
+    },
+    {
+      "TableName": "Rides",
+      "PKeys": [
+        {
+          "Name": "ride_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "user_id",
+          "Type": "int"
+        },
+        {
+          "Name": "requested_at",
+          "Type": "date"
+        }
+      ]
+    },
+    {
+      "TableName": "AcceptedRides",
+      "PKeys": [
+        {
+          "Name": "ride_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [
+        {
+          "FName": "ride_id",
+          "PName": "ride_id",
+          "PTable": "1"
+        }
+      ],
+      "Others": [
+        {
+          "Name": "driver_id",
+          "Type": "int"
+        },
+        {
+          "Name": "ride_distance",
+          "Type": "int"
+        },
+        {
+          "Name": "ride_duration",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

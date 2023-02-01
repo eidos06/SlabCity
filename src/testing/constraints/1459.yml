@@ -1,0 +1,2 @@
+col_val: Points.x_value < 1000;
+         Points.y_value < 1000

@@ -1,0 +1,26 @@
+{
+  "Problem Number": "1126",
+  "Tables": [
+    {
+      "TableName": "Events",
+      "PKeys": [
+        {
+          "Name": "business_id",
+          "Type": "int"
+        },
+        {
+          "Name": "event_type",
+          "Type": "varchar"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "occurences",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

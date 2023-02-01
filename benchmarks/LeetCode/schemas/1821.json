@@ -1,0 +1,28 @@
+{
+    "Problem Number": "1821",
+    "Tables": [
+      {
+        "TableName": "Customers",
+        "PKeys": [
+          {
+            "Name": "customer_id",
+            "Type": "int"
+          },
+          {
+              "Name":"year",
+              "Type":"int"
+          }
+        ],
+        "FKeys": [],
+        "Others": [
+            {
+                "Name":"revenue",
+                "Type":"int"
+            }
+        ]
+      }
+    ],
+    "Tuples": [
+    ]
+  
+  }

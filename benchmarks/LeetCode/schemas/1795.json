@@ -1,0 +1,32 @@
+{
+    "Problem Number": "1795",
+    "Tables": [
+      {
+        "TableName": "Products",
+        "PKeys": [
+          {
+            "Name": "product_id",
+            "Type": "int"
+          }
+        ],
+        "FKeys": [],
+        "Others": [
+            {
+                "Name":"store1",
+                "Type":"int"
+            },
+            {
+                "Name":"store2",
+                "Type":"int"
+            },
+            {
+                "Name":"store3",
+                "Type":"int"
+            }
+        ]
+      }
+    ],
+    "Tuples": [
+    ]
+  
+  }

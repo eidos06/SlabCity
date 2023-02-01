@@ -1,0 +1,49 @@
+{
+  "Problem Number": "1251",
+  "Tables": [
+    {
+      "TableName": "Prices",
+      "PKeys": [
+        {
+          "Name": "product_id",
+          "Type": "int"
+        },
+        {
+          "Name": "start_date",
+          "Type": "date"
+        },
+        {
+          "Name": "end_date",
+          "Type": "date"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "price",
+          "Type": "int"
+        }
+      ]
+    },
+    {
+      "TableName": "UnitsSold",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "product_id",
+          "Type": "int"
+        },
+        {
+          "Name": "purchase_date",
+          "Type": "date"
+        },
+        {
+          "Name": "units",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

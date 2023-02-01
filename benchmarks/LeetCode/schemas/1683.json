@@ -1,0 +1,22 @@
+{
+    "Problem Number": "1683",
+    "Tables": [
+      {
+        "TableName": "Tweets",
+        "PKeys": [
+            {
+                "Name": "tweet_id",
+                "Type": "int"
+              }
+        ],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "content",
+            "Type": "varchar"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

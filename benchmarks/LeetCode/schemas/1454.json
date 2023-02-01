@@ -1,0 +1,36 @@
+  
+{
+    "Problem Number": "1454",
+    "Tables": [
+      {
+        "TableName": "Accounts",
+        "PKeys": [          {
+            "Name": "id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "name",
+            "Type": "varchar"
+          }
+        ]
+      },
+      {
+        "TableName": "Logins",
+        "PKeys": [],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "id",
+            "Type": "int"
+          },
+          {
+            "Name": "login_date",
+            "Type": "date"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

@@ -1,0 +1,2 @@
+col_val: Product.price < 5000;
+         Orders.quantity < 1000

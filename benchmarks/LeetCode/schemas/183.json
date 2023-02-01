@@ -1,0 +1,39 @@
+{
+  "Problem Number": "183",
+  "Tables": [
+    {
+      "TableName": "Customers",
+      "PKeys": [
+        {
+          "Name": "Id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "Name",
+          "Type": "varchar"
+        }
+      ]
+    },
+    {
+      "TableName": "Orders",
+      "PKeys": [
+        {
+          "Name": "Id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [
+        {
+          "FName": "CustomerId",
+          "PName": "Id",
+          "PTable": "0"
+        }
+      ],
+      "Others": []
+    }
+  ],
+  "Tuples": []
+}

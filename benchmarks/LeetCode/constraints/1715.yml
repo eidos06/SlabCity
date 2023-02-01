@@ -1,0 +1,6 @@
+col_dep: Boxes.chest_id <- Chests.chest_id
+col_val: Boxes.chest_id | int + null;
+         Boxes.apple_count < 20;
+         Boxes.orange_count < 20;
+         Chests.apple_count < 20;
+         Chests.orange_count < 20

@@ -1,0 +1,21 @@
+{
+  "Problem Number": "614",
+  "Tables": [
+    {
+      "TableName": "follow",
+      "PKeys": [
+        {
+          "Name": "followee",
+          "Type": "varchar"
+        },
+        {
+          "Name": "follower",
+          "Type": "varchar"
+        }
+      ],
+      "FKeys": [],
+      "Others": []
+    }
+  ],
+  "Tuples": []
+}

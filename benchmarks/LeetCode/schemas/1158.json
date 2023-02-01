@@ -1,0 +1,80 @@
+{
+  "Problem Number": "1158",
+  "Tables": [
+    {
+      "TableName": "Users",
+      "PKeys": [
+        {
+          "Name": "user_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "join_date",
+          "Type": "date"
+        },
+        {
+          "Name": "favorite_brand",
+          "Type": "varchar"
+        }
+      ]
+    },
+    {
+      "TableName": "Orders",
+      "PKeys": [
+        {
+          "Name": "order_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [
+        {
+          "FName": "item_id",
+          "PName": "item_id",
+          "PTable": "2"
+        },
+        {
+          "FName": "buyer_id",
+          "PName": "user_id",
+          "PTable": "0"
+        },
+        {
+          "FName": "seller_id",
+          "PName": "user_id",
+          "PTable": "0"
+        }
+      ],
+      "Others": [
+        {
+          "Name": "order_date",
+          "Type": "date"
+        }
+      ]
+    },
+    {
+      "TableName": "Items",
+      "PKeys": [
+        {
+          "Name": "item_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [ {
+          "Name": "item_brand",
+          "Type": "varchar"
+        }]
+    }
+  ],
+  "Tuples": [
+    {
+      "Name1": "favorite_brand",
+      "Table1": "0",
+      "Name2": "item_brand",
+      "Table2": "2",
+      "Type": "varchar"
+    }
+  ]
+}

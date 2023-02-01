@@ -1,0 +1,34 @@
+{
+  "Problem Number": "1193",
+  "Tables": [
+    {
+      "TableName": "Transactions",
+      "PKeys": [
+        {
+          "Name": "id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "country",
+          "Type": "varchar"
+        },
+        {
+          "Name": "state",
+          "Type": "enum,approved,declined"
+        },
+        {
+          "Name": "amount",
+          "Type": "int"
+        },
+        {
+          "Name": "trans_date",
+          "Type": "date"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

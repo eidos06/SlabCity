@@ -1,0 +1,53 @@
+{
+  "Problem Number": "1194",
+  "Tables": [
+    {
+      "TableName": "Players",
+      "PKeys": [
+        {
+          "Name": "player_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "group_id",
+          "Type": "int"
+        }
+      ]
+    },
+    {
+      "TableName": "Matches",
+      "PKeys": [
+        {
+          "Name": "match_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [
+        {
+          "FName": "first_player",
+          "PName": "player_id",
+          "PTable": "0"
+        },
+        {
+          "FName": "second_player",
+          "PName": "player_id",
+          "PTable": "0"
+        }
+      ],
+      "Others": [
+        {
+          "Name": "first_score",
+          "Type": "int"
+        },
+        {
+          "Name": "second_score",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

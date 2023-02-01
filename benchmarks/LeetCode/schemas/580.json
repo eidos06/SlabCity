@@ -1,0 +1,48 @@
+{
+  "Problem Number": "580",
+  "Tables": [
+    {
+      "TableName": "student",
+      "PKeys": [
+        {
+          "Name": "student_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [
+        {
+          "FName": "dept_id",
+          "PName": "dept_id",
+          "PTable": "1"
+        }
+      ],
+      "Others": [
+        {
+          "Name": "student_name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "gender",
+          "Type": "varchar"
+        }
+      ]
+    },
+    {
+      "TableName": "department",
+      "PKeys": [
+        {
+          "Name": "dept_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "dept_name",
+          "Type": "varchar"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

@@ -1,0 +1,47 @@
+{
+  "Problem Number": "1075",
+  "Tables": [
+    {
+      "TableName": "Project",
+      "PKeys": [
+        {
+          "Name": "project_id",
+          "Type": "int"
+        },
+        {
+          "Name": "employee_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [
+        {
+          "FName": "employee_id",
+          "PName": "employee_id",
+          "PTable": "1"
+        }
+      ],
+      "Others": []
+    },
+    {
+      "TableName": "Employee",
+      "PKeys": [
+        {
+          "Name": "employee_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "experience_years",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

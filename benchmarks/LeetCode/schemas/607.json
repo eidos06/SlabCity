@@ -1,0 +1,85 @@
+{
+  "Problem Number": "607",
+  "Tables": [
+    {
+      "TableName": "salesperson",
+      "PKeys": [
+        {
+          "Name": "sales_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "salary",
+          "Type": "int"
+        },
+        {
+          "Name": "commission_rate",
+          "Type": "int"
+        },
+        {
+          "Name": "hire_date",
+          "Type": "varchar"
+        }
+      ]
+    },
+    {
+      "TableName": "company",
+      "PKeys": [
+        {
+          "Name": "com_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "city",
+          "Type": "varchar"
+        }
+      ]
+    },
+    {
+      "TableName": "orders",
+      "PKeys": [
+        {
+          "Name": "order_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [
+        {
+          "FName": "com_id",
+          "PName": "com_id",
+          "PTable": "1"
+        },
+        {
+          "FName": "sales_id",
+          "PName": "sales_id",
+          "PTable": "0"
+        }
+      ],
+      "Others": [
+        {
+          "Name": "order_date",
+          "Type": "varchar"
+        },
+        {
+          "Name": "amount",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

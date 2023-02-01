@@ -1,0 +1,44 @@
+{
+  "Problem Number": "597",
+  "Tables": [
+    {
+      "TableName": "FriendRequest",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "sender_id",
+          "Type": "int"
+        },
+        {
+          "Name": "send_to_id",
+          "Type": "int"
+        },
+        {
+          "Name": "request_date",
+          "Type": "date"
+        }
+      ]
+    },
+    {
+      "TableName": "RequestAccepted",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "requester_id",
+          "Type": "int"
+        },
+        {
+          "Name": "accepter_id",
+          "Type": "int"
+        },
+        {
+          "Name": "accept_date",
+          "Type": "date"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

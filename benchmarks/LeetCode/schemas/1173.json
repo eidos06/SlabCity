@@ -1,0 +1,30 @@
+{
+  "Problem Number": "1173",
+  "Tables": [
+    {
+      "TableName": "Delivery",
+      "PKeys": [
+        {
+          "Name": "delivery_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "customer_id",
+          "Type": "int"
+        },
+        {
+          "Name": "order_date",
+          "Type": "date"
+        },
+        {
+          "Name": "customer_pref_delivery_date",
+          "Type": "date"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

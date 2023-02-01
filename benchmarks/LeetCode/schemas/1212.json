@@ -1,0 +1,53 @@
+{
+  "Problem Number": "1212",
+  "Tables": [
+    {
+      "TableName": "Teams",
+      "PKeys": [
+        {
+          "Name": "team_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "team_name",
+          "Type": "varchar"
+        }
+      ]
+    },
+    {
+      "TableName": "Matches",
+      "PKeys": [
+        {
+          "Name": "match_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [
+        {
+          "FName": "host_team",
+          "PName": "team_id",
+          "PTable": "0"
+        },
+        {
+          "FName": "guest_team",
+          "PName": "team_id",
+          "PTable": "0"
+        }
+      ],
+      "Others": [
+        {
+          "Name": "host_goals",
+          "Type": "int"
+        },
+        {
+          "Name": "guest_goals",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}
