@@ -1,0 +1,44 @@
+1,select distinct email from person group by email having count(email) >= 2
+2,select distinct email from person group by email having count(id) > 1
+20,select distinct email from person group by email having count(email) > 1
+24,"select email from (select email, count(email) as num from person group by email) as statistic where num > 1"
+25,select email from person group by email having count(email) > 1
+28,select email as email from person group by email having count(email) > 1
+29,"select email from (select count(email) as c, email from person group by email) as dupe where c > 1"
+30,"select email from (select email, count(email) as number from person group by email) as number_emails where number > 1"
+31,"select email from (select email, count(email) as emailcount from person group by email) as countemail where countemail.emailcount > 1"
+32,"select email from (select email, count(email) as count from person group by email) as e where e.count > 1"
+36,"select email from (select email, count(email) as occurences from person group by email) as sub where occurences > 1"
+37,"select email from (select email, count(email) as num from person group by email) as new where num > 1"
+48,select email from person group by email having count(distinct id) > 1
+52,select email from person group by email having count(id) > 1
+65,select email from person group by email having count(email) > 1 order by email
+69,select email from person as a group by email having count(email) > 1
+75,select email from person group by email having count(email) >= 2
+76,"select email from (select email, count(email) as num from person group by email) as statictic where num > 1"
+77,"select email from (select email, count(email) as cnt from person group by email) as data where cnt > 1"
+83,select person.email from person group by person.email having count(email) > 1
+86,select a.email from person as a group by email having count(id) > 1
+87,"select a.email as email from (select email, count(id) as countt from person group by email) as a where a.countt > 1"
+89,"select email from (select email, count(email) as c from person group by email) as temp where c > 1"
+100,select p.email from person as p group by p.email having count(p.email) > 1
+113,"select email from (select email, count(email) as num from person group by email) as statistics where num > 1"
+131,"select email from (select email, count(email) as number from person group by 1 having count(email) > 1) as a"
+134,"select email from (select email, count(email) as num from person group by email) as statistic where statistic.num > 1"
+136,"select email from (select email, count(email) as c from person group by email) as email where c > 1"
+137,"select email from (select email, count(id) as countofemail from person group by email) as t where t.countofemail > 1"
+140,"select email from (select email, count(email) as cnt from person group by 1) as x where cnt > 1"
+141,"select email from (select email, count(email) as count_ from person group by person.email) as foo where count_ > 1"
+142,"select email from (select email, count(email) as num from person group by email) as t where num > 1"
+146,"select email from (select email, count(email) as email_quantity from person group by email) as table_info where email_quantity > 1"
+152,select email from person group by 1 having count(email) > 1
+183,select distinct email from (select email from person group by email having count(email) > 1) as p
+196,"select distinct email from (select email, count(id) as cnt from person group by email) as tb1 where cnt > 1"
+198,"select email from (select email, count(email) as a from person group by email) as t where a > 1"
+200,"select email from (select email, count(email) as cnt from person group by email) as temp where cnt > 1"
+206,"select email from (select email, count(email) as countemail from person group by email) as c where countemail > 1"
+207,"select email from (select email, count(email) as num from person group by email) as segregation where num > 1"
+209,"select email from (select email, count(email) as num from person group by email) as derived where num > 1"
+227,select email from person as s group by email having count(email) > 1
+231,"select tab.email from (select email, count(id) as num from person group by email having count(id) > 1) as tab"
+232,"select tmp.email from (select email, count(email) as cnt from person group by email) as tmp where tmp.cnt > 1"

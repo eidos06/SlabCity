@@ -1,0 +1,40 @@
+{
+  "Problem Number": "1440",
+  "Tables": [
+    {
+      "TableName": "Variables",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "value",
+          "Type": "int"
+        }
+      ]
+    },
+    {
+      "TableName": "Expressions",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "left_operand",
+          "Type": "varchar"
+        },
+        {
+          "Name": "operator",
+          "Type": "enum,<,>,="
+        },
+        {
+          "Name": "right_operand",
+          "Type": "varchar"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

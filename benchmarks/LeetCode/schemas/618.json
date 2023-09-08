@@ -1,0 +1,22 @@
+{
+  "Problem Number": "618",
+  "Tables": [
+    {
+      "TableName": "student",
+      "PKeys": [
+        {
+          "Name": "name",
+          "Type": "varchar"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "continent",
+          "Type": "enum,America,Europe,Asia"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

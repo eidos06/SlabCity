@@ -1,0 +1,54 @@
+{
+    "Problem Number": "1811",
+    "Tables": [
+        {
+            "TableName": "Users",
+            "PKeys": [
+              {
+                "Name": "user_id",
+                "Type": "int"
+              }
+            ],
+            "FKeys": [],
+            "Others": [
+                {
+                    "Name":"mail",
+                    "Type":"varchar"
+                },
+                {
+                    "Name":"name",
+                    "Type":"varchar"
+                }
+            ]
+          },
+      {
+        "TableName": "Contests",
+        "PKeys": [
+          {
+            "Name": "contest_id",
+            "Type": "int"
+          }
+        ],
+            "FKeys": [{
+                "FName": "gold_medal",
+                "PName": "user_id",
+                "PTable": "0"
+            },
+            {
+                "FName": "silver_medal",
+                "PName": "user_id",
+                "PTable": "0"
+              },
+              {
+                "FName": "bronze_medal",
+                "PName": "user_id",
+                "PTable": "0"
+              }],
+        "Others": [
+        ]
+      }
+    ],
+    "Tuples": [
+    ]
+  
+  }

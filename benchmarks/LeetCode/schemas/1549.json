@@ -1,0 +1,60 @@
+{
+    "Problem Number": "1549",
+    "Tables": [
+      {
+        "TableName": "Customers",
+        "PKeys": [          {
+            "Name": "customer_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "name",
+            "Type": "varchar"
+          }
+        ]
+      },
+      {
+        "TableName": "Orders",
+        "PKeys": [          {
+            "Name": "order_id",
+            "Type": "int"
+          }],
+        "FKeys": [{
+            "FName": "customer_id",
+            "PName": "customer_id",
+            "PTable": "0"
+          },{
+            "FName": "product_id",
+            "PName": "product_id",
+            "PTable": "2"
+          }],
+        "Others": [
+          {
+            "Name": "order_date",
+            "Type": "date"
+          }
+        ]
+      },
+      {
+        "TableName": "Products",
+        "PKeys": [          {
+            "Name": "product_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "product_name",
+            "Type": "varchar"
+          },
+          {
+            "Name": "price",
+            "Type": "int"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

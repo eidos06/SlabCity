@@ -1,0 +1,40 @@
+{
+  "Problem Number": "1412",
+  "Tables": [
+    {
+      "TableName": "Student",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "student_id",
+          "Type": "int"
+        },
+        {
+          "Name": "student_name",
+          "Type": "varchar"
+        }
+      ]
+    },
+    {
+      "TableName": "Exam",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "exam_id",
+          "Type": "int"
+        },
+        {
+          "Name": "student_id",
+          "Type": "int"
+        },
+        {
+          "Name": "score",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

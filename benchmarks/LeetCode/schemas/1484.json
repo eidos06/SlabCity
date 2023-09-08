@@ -1,0 +1,21 @@
+{
+    "Problem Number": "1484",
+    "Tables": [
+      {
+        "TableName": "Activities",
+        "PKeys": [],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "sell_date",
+            "Type": "date"
+          },
+          {
+            "Name": "product",
+            "Type": "varchar"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

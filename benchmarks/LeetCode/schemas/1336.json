@@ -1,0 +1,42 @@
+{
+  "Problem Number": "1336",
+  "Tables": [
+    {
+      "TableName": "Visits",
+      "PKeys": [
+        {
+          "Name": "user_id",
+          "Type": "int"
+        },
+        {
+          "Name": "visit_date",
+          "Type": "date"
+        }
+      ],
+      "FKeys": [],
+      "Others": []
+    },
+    {
+      "TableName": "Transactions",
+      "PKeys": [],
+      "FKeys": [
+        {
+          "FName": "user_id",
+          "PName": "user_id",
+          "PTable": "0"
+        }
+      ],
+      "Others": [
+        {
+          "Name": "transaction_date",
+          "Type": "date"
+        },
+        {
+          "Name": "amount",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

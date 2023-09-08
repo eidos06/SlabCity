@@ -1,0 +1,44 @@
+{
+  "Problem Number": "1294",
+  "Tables": [
+    {
+      "TableName": "Countries",
+      "PKeys": [
+        {
+          "Name": "country_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "country_name",
+          "Type": "varchar"
+        }
+      ]
+    },
+    {
+      "TableName": "Weather",
+      "PKeys": [
+        {
+          "Name": "day",
+          "Type": "date"
+        }
+      ],
+      "FKeys": [
+        {
+          "FName": "country_id",
+          "PName": "country_id",
+          "PTable": "0"
+        }
+      ],
+      "Others": [
+        {
+          "Name": "weather_state",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

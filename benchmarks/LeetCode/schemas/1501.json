@@ -1,0 +1,61 @@
+{
+    "Problem Number": "1501",
+    "Tables": [
+      {
+        "TableName": "Person",
+        "PKeys": [          {
+            "Name": "id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "name",
+            "Type": "varchar"
+          },
+          {
+            "Name": "phone_number",
+            "Type": "varchar"
+          }
+        ]
+      },
+      {
+        "TableName": "Country",
+        "PKeys": [
+            {
+              "Name": "country_code",
+              "Type": "varchar"
+            }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "name",
+            "Type": "varchar"
+          }
+        ]
+      },
+      {
+        "TableName": "Calls",
+        "PKeys": [],
+        "FKeys": [
+          {
+            "FName": "caller_id",
+            "PName": "id",
+            "PTable": "0"
+          },
+          {
+            "FName": "callee_id",
+            "PName": "id",
+            "PTable": "0"
+          }
+        ],
+        "Others": [
+          {
+            "Name": "duration",
+            "Type": "int"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

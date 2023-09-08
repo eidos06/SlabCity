@@ -1,0 +1,1 @@
+row_dep: unique(Delivery.customer_id, Delivery.order_date)

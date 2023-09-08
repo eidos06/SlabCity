@@ -1,0 +1,52 @@
+{
+  "Problem Number": "175",
+  "Tables": [
+    {
+      "TableName": "Person",
+      "PKeys": [
+        {
+          "Name": "PersonId",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "FirstName",
+          "Type": "varchar"
+        },
+        {
+          "Name": "LastName",
+          "Type": "varchar"
+        }
+      ]
+    },
+    {
+      "TableName": "Address",
+      "PKeys": [
+        {
+          "Name": "AddressId",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [
+        {
+          "FName": "PersonId",
+          "PName": "PersonId",
+          "PTable": "0"
+        }
+      ],
+      "Others": [
+        {
+          "Name": "City",
+          "Type": "varchar"
+        },
+        {
+          "Name": "State",
+          "Type": "varchar"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

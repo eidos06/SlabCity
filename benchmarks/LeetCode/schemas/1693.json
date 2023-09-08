@@ -1,0 +1,29 @@
+{
+    "Problem Number": "1693",
+    "Tables": [
+      {
+        "TableName": "DailySales",
+        "PKeys": [],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "date_id",
+            "Type": "date"
+          },
+          {
+            "Name": "make_name",
+            "Type": "varchar"
+          },
+          {
+            "Name": "lead_id",
+            "Type": "int"
+          },
+          {
+            "Name": "partner_id",
+            "Type": "int"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

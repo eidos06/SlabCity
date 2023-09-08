@@ -1,0 +1,22 @@
+{
+  "Problem Number": "178",
+  "Tables": [
+    {
+      "TableName": "Scores",
+      "PKeys": [
+        {
+          "Name": "Id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "Score",
+          "Type": "decimal"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

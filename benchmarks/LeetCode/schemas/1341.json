@@ -1,0 +1,73 @@
+{
+  "Problem Number": "1341",
+  "Tables": [
+    {
+      "TableName": "Movies",
+      "PKeys": [
+        {
+          "Name": "movie_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "title",
+          "Type": "varchar"
+        }
+      ]
+    },
+    {
+      "TableName": "Users",
+      "PKeys": [
+        {
+          "Name": "user_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "name",
+          "Type": "varchar"
+        }
+      ]
+    },
+    {
+      "TableName": "Movie_Rating",
+      "PKeys": [
+        {
+          "Name": "movie_id",
+          "Type": "int"
+        },
+        {
+          "Name": "user_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [
+        {
+          "FName": "movie_id",
+          "PName": "movie_id",
+          "PTable": "0"
+        },
+        {
+          "FName": "user_id",
+          "PName": "user_id",
+          "PTable": "1"
+        }
+      ],
+      "Others": [
+        {
+          "Name": "rating",
+          "Type": "int"
+        },
+        {
+          "Name": "created_at",
+          "Type": "date"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

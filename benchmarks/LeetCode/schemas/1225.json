@@ -1,0 +1,28 @@
+{
+  "Problem Number": "1225",
+  "Tables": [
+    {
+      "TableName": "Failed",
+      "PKeys": [
+        {
+          "Name": "fail_date",
+          "Type": "date"
+        }
+      ],
+      "FKeys": [],
+      "Others": []
+    },
+    {
+      "TableName": "Succeeded",
+      "PKeys": [
+        {
+          "Name": "success_date",
+          "Type": "date"
+        }
+      ],
+      "FKeys": [],
+      "Others": []
+    }
+  ],
+  "Tuples": []
+}

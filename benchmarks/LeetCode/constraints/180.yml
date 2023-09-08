@@ -1,0 +1,2 @@
+row_dep: inc(Logs.Id)
+col_val: Logs.Num <- [1,10]

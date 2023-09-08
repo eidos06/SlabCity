@@ -1,0 +1,29 @@
+{
+  "Problem Number": "1141",
+  "Tables": [
+    {
+      "TableName": "Activity",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "user_id",
+          "Type": "int"
+        },
+        {
+          "Name": "session_id",
+          "Type": "int"
+        },
+        {
+          "Name": "activity_date",
+          "Type": "date"
+        },
+        {
+          "Name": "activity_type",
+          "Type": "enum,open_session,end_session,scroll_down,send_message"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

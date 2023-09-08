@@ -1,0 +1,37 @@
+{
+  "Problem Number": "1378",
+  "Tables": [
+    {
+      "TableName": "Employees",
+      "PKeys": [
+        {
+          "Name": "id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "name",
+          "Type": "varchar"
+        }
+      ]
+    },
+    {
+      "TableName": "EmployeeUNI",
+      "PKeys": [
+        {
+          "Name": "id",
+          "Type": "int"
+        },
+        {
+          "Name": "unique_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": []
+    }
+  ],
+  "Tuples": []
+}

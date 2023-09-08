@@ -1,0 +1,28 @@
+{
+    "Problem Number": "1831",
+    "Tables": [
+      {
+        "TableName": "Transactions",
+        "PKeys": [
+          {
+            "Name": "transaction_id",
+            "Type": "int"
+          }
+        ],
+        "FKeys": [],
+        "Others": [
+            {
+                "Name":"day",
+                "Type":"date"
+            },
+            {
+                "Name":"amount",
+                "Type":"int"
+            }
+        ]
+      }
+    ],
+    "Tuples": [
+    ]
+  
+  }

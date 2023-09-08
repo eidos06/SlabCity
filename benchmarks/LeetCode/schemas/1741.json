@@ -1,0 +1,31 @@
+{
+    "Problem Number": "1741",
+    "Tables": [
+      {
+        "TableName": "Employees",
+        "PKeys": [{
+            "Name": "emp_id",
+            "Type": "int"
+          },
+
+        {
+            "Name":"event_day",
+            "Type":"date"
+        },
+        {
+            "Name":"in_time",
+            "Type":"int"
+        }],
+        "FKeys": [],
+        "Others": [
+            {
+                "Name":"out_time",
+                "Type":"int"
+            }
+        ]
+      }
+    ],
+    "Tuples": [
+    ]
+  
+  }

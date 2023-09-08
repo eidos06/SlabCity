@@ -1,0 +1,51 @@
+{
+    "Problem Number": "1555",
+    "Tables": [
+      {
+        "TableName": "Users",
+        "PKeys": [          {
+            "Name": "user_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "user_name",
+            "Type": "varchar"
+          },
+          {
+            "Name": "credit",
+            "Type": "int"
+          }
+        ]
+      },
+      {
+        "TableName": "Transactions",
+        "PKeys": [          {
+            "Name": "trans_id",
+            "Type": "int"
+          }],
+        "FKeys": [{
+            "FName": "paid_by",
+            "PName": "user_id",
+            "PTable": "0"
+          },
+          {
+            "FName": "paid_to",
+            "PName": "user_id",
+            "PTable": "0"
+          }],
+        "Others": [
+          {
+            "Name": "amount",
+            "Type": "int"
+          },
+          {
+            "Name": "transacted_on",
+            "Type": "date"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

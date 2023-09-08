@@ -1,0 +1,29 @@
+{
+  "Problem Number": "1369",
+  "Tables": [
+    {
+      "TableName": "UserActivity",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "username",
+          "Type": "varchar"
+        },
+        {
+          "Name": "activity",
+          "Type": "varchar"
+        },
+        {
+          "Name": "startDate",
+          "Type": "date"
+        },
+        {
+          "Name": "endDate",
+          "Type": "date"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

@@ -1,0 +1,16 @@
+2,select distinct author_id as id from views where author_id = viewer_id order by author_id
+7,select distinct author_id as id from views where author_id = viewer_id order by author_id asc
+29,select distinct v1.author_id as id from views as v1 join views as v2 on (v1.article_id = v2.article_id and v1.author_id = v2.viewer_id) order by v1.author_id
+46,select author_id as id from views where author_id = viewer_id group by author_id order by author_id
+55,select author_id as id from views where author_id = viewer_id group by author_id order by author_id asc
+62,select distinct author_id as id from views where viewer_id = author_id order by author_id
+66,select t.author_id as id from (select author_id from views where author_id = viewer_id group by author_id having count(author_id) >= 1) as t order by t.author_id
+67,select distinct v1.author_id as id from views as v1 where v1.author_id = v1.viewer_id order by v1.author_id asc
+82,select author_id as id from views as a where author_id = viewer_id group by author_id order by author_id
+88,select author_id as id from views where author_id = viewer_id group by author_id having count(author_id) >= 1 order by author_id asc
+90,select author_id as id from views where viewer_id = author_id group by author_id order by author_id asc
+97,"select author_id as id from views where author_id = viewer_id group by author_id, viewer_id order by author_id asc"
+107,select distinct a.author_id as id from views as a join views as b on (a.article_id = b.article_id and a.author_id = b.viewer_id) order by a.author_id
+111,select distinct author_id as id from views as v where v.author_id = v.viewer_id order by author_id
+152,select distinct viewer_id as id from views where author_id = viewer_id order by viewer_id asc
+153,select distinct viewer_id as id from views where author_id = viewer_id order by viewer_id

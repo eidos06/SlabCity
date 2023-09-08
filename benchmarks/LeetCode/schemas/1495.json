@@ -1,0 +1,54 @@
+{
+    "Problem Number": "1495",
+    "Tables": [
+      {
+        "TableName": "TVProgram",
+        "PKeys": [          {
+            "Name": "program_date",
+            "Type": "date"
+          },
+          {
+            "Name": "content_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "channel",
+            "Type": "varchar"
+          }
+        ]
+      },
+      {
+        "TableName": "Content",
+        "PKeys": [          
+          {
+            "Name": "content_id",
+            "Type": "int"
+          }
+        ],
+        "FKeys": [
+          {
+            "FName": "content_id",
+            "PName": "content_id",
+            "PTable": "0"
+          }
+        ],
+        "Others": [
+          {
+            "Name": "title",
+            "Type": "varchar"
+          },
+          {
+            "Name": "Kids_content",
+            "Type": "enum,Y,N"
+          },
+          {
+            "Name": "content_type",
+            "Type": "varchar"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

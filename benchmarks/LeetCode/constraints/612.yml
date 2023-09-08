@@ -1,0 +1,2 @@
+col_val: point_2d.x < 1000;
+         point_2d.y < 1000

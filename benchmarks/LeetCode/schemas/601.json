@@ -1,0 +1,26 @@
+{
+  "Problem Number": "601",
+  "Tables": [
+    {
+      "TableName": "stadium",
+      "PKeys": [
+        {
+          "Name": "visit_date",
+          "Type": "date"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "id",
+          "Type": "int"
+        },
+        {
+          "Name": "people",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

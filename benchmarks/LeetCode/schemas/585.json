@@ -1,0 +1,34 @@
+{
+  "Problem Number": "585",
+  "Tables": [
+    {
+      "TableName": "insurance",
+      "PKeys": [
+        {
+          "Name": "PID",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "TIV_2015",
+          "Type": "numeric"
+        },
+        {
+          "Name": "TIV_2016",
+          "Type": "numeric"
+        },
+        {
+          "Name": "LAT",
+          "Type": "numeric"
+        },
+        {
+          "Name": "LON",
+          "Type": "numeric"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

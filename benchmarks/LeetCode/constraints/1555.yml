@@ -1,0 +1,3 @@
+col_dep: Transactions.paid_by != Transactions.paid_to
+col_val: Transactions.amount < 100;
+           Users.credit < 100

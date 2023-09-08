@@ -1,0 +1,26 @@
+{
+  "Problem Number": "1179",
+  "Tables": [
+    {
+      "TableName": "Department",
+      "PKeys": [
+        {
+          "Name": "id",
+          "Type": "int"
+        },
+        {
+          "Name": "month",
+          "Type": "enum,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "revenue",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

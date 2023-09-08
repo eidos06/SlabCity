@@ -1,0 +1,50 @@
+{
+  "Problem Number": "1280",
+  "Tables": [
+    {
+      "TableName": "Students",
+      "PKeys": [
+        {
+          "Name": "student_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "student_name",
+          "Type": "varchar"
+        }
+      ]
+    },
+    {
+      "TableName": "Subjects",
+      "PKeys": [
+        {
+          "Name": "subject_name",
+          "Type": "varchar"
+        }
+      ],
+      "FKeys": [],
+      "Others": []
+    },
+    {
+      "TableName": "Examinations",
+      "PKeys": [],
+      "FKeys": [
+        {
+          "FName": "student_id",
+          "PName": "student_id",
+          "PTable": "0"
+        },
+        {
+          "FName": "subject_name",
+          "PName": "subject_name",
+          "PTable": "1"
+        }
+      ],
+      "Others": []
+    }
+  ],
+  "Tuples": []
+}

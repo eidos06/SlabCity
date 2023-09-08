@@ -1,0 +1,17 @@
+{
+  "Problem Number": "619",
+  "Tables": [
+    {
+      "TableName": "my_numbers",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "num",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

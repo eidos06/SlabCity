@@ -1,0 +1,26 @@
+{
+  "Problem Number": "1270",
+  "Tables": [
+    {
+      "TableName": "Employees",
+      "PKeys": [
+        {
+          "Name": "employee_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "employee_name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "manager_id",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

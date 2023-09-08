@@ -1,0 +1,26 @@
+{
+  "Problem Number": "1322",
+  "Tables": [
+    {
+      "TableName": "Ads",
+      "PKeys": [
+        {
+          "Name": "ad_id",
+          "Type": "int"
+        },
+        {
+          "Name": "user_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "action",
+          "Type": "enum,clicked,viewed,ignored"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

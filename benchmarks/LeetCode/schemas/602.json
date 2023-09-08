@@ -1,0 +1,25 @@
+{
+  "Problem Number": "602",
+  "Tables": [
+    {
+      "TableName": "request_accepted",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "requester_id",
+          "Type": "int"
+        },
+        {
+          "Name": "accepter_id",
+          "Type": "int"
+        },
+        {
+          "Name": "accept_date",
+          "Type": "date"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

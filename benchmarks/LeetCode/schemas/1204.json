@@ -1,0 +1,30 @@
+{
+  "Problem Number": "1204",
+  "Tables": [
+    {
+      "TableName": "Queue",
+      "PKeys": [
+        {
+          "Name": "person_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "person_name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "weight",
+          "Type": "int"
+        },
+        {
+          "Name": "turn",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

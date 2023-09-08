@@ -1,0 +1,28 @@
+{
+    "Problem Number": "1757",
+    "Tables": [
+      {
+        "TableName": "Products",
+        "PKeys": [
+          {
+            "Name": "product_id",
+            "Type": "int"
+          }
+        ],
+        "FKeys": [],
+        "Others": [
+            {
+                "Name":"low_fats",
+                "Type":"enum,Y,N"
+            },
+            {
+                "Name":"recyclable",
+                "Type":"enum,Y,N"
+            }
+        ]
+      }
+    ],
+    "Tuples": [
+    ]
+  
+  }

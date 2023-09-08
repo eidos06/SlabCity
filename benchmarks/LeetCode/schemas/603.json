@@ -1,0 +1,22 @@
+{
+  "Problem Number": "603",
+  "Tables": [
+    {
+      "TableName": "cinema",
+      "PKeys": [
+        {
+          "Name": "seat_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "free",
+          "Type": "bool"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

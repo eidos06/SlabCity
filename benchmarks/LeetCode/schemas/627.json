@@ -1,0 +1,30 @@
+{
+  "Problem Number": "627",
+  "Tables": [
+    {
+      "TableName": "salary",
+      "PKeys": [
+        {
+          "Name": "id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "sex",
+          "Type": "enum,m,f"
+        },
+        {
+          "Name": "salary",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

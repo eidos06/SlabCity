@@ -1,0 +1,39 @@
+{
+    "Problem Number": "1767",
+    "Tables": [
+      {
+        "TableName": "Tasks",
+        "PKeys": [
+          {
+            "Name": "task_id",
+            "Type": "int"
+          }
+        ],
+        "FKeys": [],
+        "Others": [
+            {
+                "Name":"subtasks_count",
+                "Type":"int"
+            }
+        ]
+      },
+      {
+        "TableName": "Executed",
+        "PKeys": [
+          {
+            "Name": "task_id",
+            "Type": "int"
+          },
+          {
+            "Name": "subtask_id",
+            "Type": "int"
+          }
+        ],
+        "FKeys": [],
+        "Others": []
+      }
+    ],
+    "Tuples": [
+    ]
+  
+  }

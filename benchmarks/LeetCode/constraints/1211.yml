@@ -1,0 +1,2 @@
+col_val: Queries.rating <- [1,5];
+         Queries.position <- [1,500]

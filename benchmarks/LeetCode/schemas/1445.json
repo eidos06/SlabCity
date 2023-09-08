@@ -1,0 +1,24 @@
+{
+    "Problem Number": "1445",
+    "Tables": [
+      {
+        "TableName": "Sales",
+        "PKeys": [{
+            "Name": "sale_date",
+            "Type": "date"
+          },
+          {
+            "Name": "fruit",
+            "Type": "enum,apples,oranges"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "sold_num",
+            "Type": "int"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

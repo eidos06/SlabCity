@@ -1,0 +1,38 @@
+{
+    "Problem Number": "1421",
+    "Tables": [
+      {
+        "TableName": "NPV",
+        "PKeys": [          {
+            "Name": "id",
+            "Type": "int"
+          },
+          {
+            "Name": "year",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "npv",
+            "Type": "int"
+          }
+        ]
+      },
+      {
+        "TableName": "Queries",
+        "PKeys": [          {
+            "Name": "id",
+            "Type": "int"
+          },
+          {
+            "Name": "year",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+        ]
+      }
+    ],
+    "Tuples": []
+  } 

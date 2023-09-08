@@ -1,0 +1,29 @@
+{
+    "Problem Number": "1393",
+    "Tables": [
+      {
+        "TableName": "Stocks",
+        "PKeys": [{
+            "Name": "stock_name",
+            "Type": "varchar"
+          },
+          {
+            "Name": "operation_day",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          
+          {
+            "Name": "operation",
+            "Type": "enum,Sell,Buy"
+          },
+          {
+            "Name": "price",
+            "Type": "int"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

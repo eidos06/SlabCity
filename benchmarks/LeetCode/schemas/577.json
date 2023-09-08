@@ -1,0 +1,50 @@
+{
+  "Problem Number": "577",
+  "Tables": [
+    {
+      "TableName": "Employee",
+      "PKeys": [
+        {
+          "Name": "empId",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "name",
+          "Type": "varchar"
+        },
+        {
+          "Name": "supervisor",
+          "Type": "int"
+        },
+        {
+          "Name": "salary",
+          "Type": "int"
+        }
+      ]
+    },
+    {
+      "TableName": "Bonus",
+      "PKeys": [
+        {
+          "Name": "empId",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [{
+        "FName": "empId",
+        "PName": "empId",
+        "PTable": "0"
+      }],
+      "Others": [
+        {
+          "Name": "bonus",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

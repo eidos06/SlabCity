@@ -1,0 +1,16 @@
+{
+    "Problem Number": "1853",
+    "Tables": [
+      {
+        "TableName": "Days",
+        "PKeys": [
+          {
+            "Name": "day",
+            "Type": "date"
+          }
+        ],
+        "FKeys": [],
+        "Others": []
+      }
+    ]
+  }

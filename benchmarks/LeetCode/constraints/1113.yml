@@ -1,0 +1,2 @@
+col_dep: Actions.action != report => Actions.extra = null
+col_val: (s) Actions.action_date = 2019-07-04

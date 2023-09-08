@@ -1,0 +1,26 @@
+{
+  "Problem Number": "1112",
+  "Tables": [
+    {
+      "TableName": "Enrollments",
+      "PKeys": [
+        {
+          "Name": "student_id",
+          "Type": "int"
+        },
+        {
+          "Name": "course_id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "grade",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

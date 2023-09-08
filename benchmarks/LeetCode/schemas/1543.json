@@ -1,0 +1,24 @@
+{
+    "Problem Number": "1543",
+    "Tables": [
+      {
+        "TableName": "Sales",
+        "PKeys": [          {
+            "Name": "sale_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "product_name",
+            "Type": "varchar"
+          },
+          {
+            "Name": "sale_date",
+            "Type": "date"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

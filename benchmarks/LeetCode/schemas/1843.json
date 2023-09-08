@@ -1,0 +1,54 @@
+{
+    "Problem Number": "1843",
+    "Tables": [
+      {
+        "TableName": "Accounts",
+        "PKeys": [
+          {
+            "Name": "account_id",
+            "Type": "int"
+          }
+        ],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "max_income",
+            "Type": "int"
+          }
+        ]
+      },
+      {
+        "TableName": "Transactions",
+        "PKeys": [
+          {
+            "Name": "transaction_id",
+            "Type": "int"
+          }
+        ],
+        "FKeys": [
+          {
+            "FName": "account_id",
+            "PName": "account_id",
+            "PTable": "0"
+          }
+        ],
+        "Others": [
+          {
+            "Name": "type",
+            "Type": "enum,Creditor,Debtor"
+          },
+          {
+            "Name": "amount",
+            "Type": "int"
+          },
+          {
+              "Name":"day",
+              "Type":"date"
+          }
+        ]
+      }
+    ],
+    "Tuples": [
+    ]
+  
+  }

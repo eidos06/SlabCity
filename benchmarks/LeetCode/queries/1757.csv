@@ -1,0 +1,16 @@
+1,select distinct product_id from products where (low_fats = 'Y' and recyclable = 'Y')
+3,select product_id from products where (low_fats = 'Y' and recyclable = 'Y')
+6,select p.product_id from products as p where (p.low_fats = 'Y' and p.recyclable = 'Y')
+11,select product_id from products as p where (p.low_fats = 'Y' and p.recyclable = 'Y')
+12,select product_id from products as prod where (prod.low_fats = 'Y' and prod.recyclable = 'Y')
+22,select product_id from products where (low_fats = 'Y' and recyclable = 'Y') order by product_id
+34,select product_id from products where (recyclable = 'Y' and low_fats = 'Y')
+69,select product_id from products as p where (low_fats = 'Y' and recyclable = 'Y')
+75,select product_id from products where (low_fats = 'Y' and recyclable = 'Y') order by product_id desc
+87,select p.product_id from products as p where (p.recyclable = 'Y' and p.low_fats = 'Y')
+91,select product_id from products where (products.low_fats = 'Y' and products.recyclable = 'Y')
+94,select product_id from products where (low_fats = 'Y' and recyclable = 'Y') group by product_id
+98,select product_id from products where (low_fats = 'Y' and recyclable = 'Y') order by product_id asc
+122,select product_id from products as item where (item.low_fats = 'Y' and item.recyclable = 'Y')
+125,select product_id from products where (1 = 1 and low_fats = 'Y' and recyclable = 'Y')
+136,"select r.product_id from (select product_id, low_fats from products as p1 where recyclable = 'Y') as r where r.low_fats = 'Y'"

@@ -1,0 +1,2 @@
+col_dep: Executed.subtask_id < Tasks.subtasks_count
+col_val: Tasks.subtasks_count <- [2,20]

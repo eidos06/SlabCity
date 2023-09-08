@@ -1,0 +1,22 @@
+{
+  "Problem Number": "571",
+  "Tables": [
+    {
+      "TableName": "Numbers",
+      "PKeys": [
+        {
+          "Name": "Number",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "Frequency",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

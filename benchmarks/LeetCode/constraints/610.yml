@@ -1,0 +1,3 @@
+col_val: triangle.x < 1000;
+         triangle.y < 1000;
+         triangle.z < 1000

@@ -1,0 +1,22 @@
+{
+  "Problem Number": "608",
+  "Tables": [
+    {
+      "TableName": "tree",
+      "PKeys": [
+        {
+          "Name": "id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "p_id",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

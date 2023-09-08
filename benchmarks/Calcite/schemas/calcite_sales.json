@@ -1,0 +1,234 @@
+{
+    "Problem Number": "calcite_sales",
+    "Tables": [
+      {
+        "TableName": "EMP",
+        "PKeys": [
+          {
+            "Name": "EMPNO",
+            "Type": "int"
+          }
+        ],
+        "FKeys": [
+          {
+            "FName": "DEPTNO",
+            "PName": "DEPTNO",
+            "PTable": "1"
+          }
+        ],
+        "Others": [
+          {
+            "Name": "ENAME",
+            "Type": "varchar"
+          },
+          {
+            "Name": "JOB",
+            "Type": "varchar"
+          },
+          {
+            "Name": "MGR",
+            "Type": "int"
+          },
+          {
+            "Name": "HIREDATE",
+            "Type": "date"
+          },
+          {
+            "Name": "SAL",
+            "Type": "int"
+          },
+          {
+            "Name": "COMM",
+            "Type": "int"
+          },
+          {
+            "Name": "SLACKER",
+            "Type": "boolean"
+          }
+        ]
+      },
+      {
+        "TableName": "DEPT",
+        "PKeys": [
+          {
+            "Name": "DEPTNO",
+            "Type": "int"
+          }
+        ],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "NAME",
+            "Type": "varchar"
+          }
+        ]
+      },
+      {
+        "TableName": "BONUS",
+        "PKeys": [],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "ENAME",
+            "Type": "varchar"
+          },
+          {
+            "Name": "JOB",
+            "Type": "varchar"
+          },
+          {
+            "Name": "SAL",
+            "Type": "int"
+          },
+          {
+            "Name": "COMM",
+            "Type": "int"
+          }
+        ]
+      },
+      {
+        "TableName": "EMPNULLABLES",
+        "PKeys": [
+          {
+            "Name": "EMPNO",
+            "Type": "int"
+          }
+        ],
+        "FKeys": [
+          {
+            "FName": "DEPTNO",
+            "PName": "DEPTNO",
+            "PTable": "1"
+          }
+        ],
+        "Others": [
+          {
+            "Name": "ENAME",
+            "Type": "varchar"
+          },
+          {
+            "Name": "JOB",
+            "Type": "varchar"
+          },
+          {
+            "Name": "MGR",
+            "Type": "int"
+          },
+          {
+            "Name": "HIREDATE",
+            "Type": "date"
+          },
+          {
+            "Name": "SAL",
+            "Type": "int"
+          },
+          {
+            "Name": "COMM",
+            "Type": "int"
+          },
+          {
+            "Name": "SLACKER",
+            "Type": "boolean"
+          }
+        ]
+      },
+      {
+        "TableName": "EMPNULLABLES_20",
+        "PKeys": [
+          {
+            "Name": "EMPNO",
+            "Type": "int"
+          }
+        ],
+        "FKeys": [
+          {
+            "FName": "DEPTNO",
+            "PName": "DEPTNO",
+            "PTable": "1"
+          }
+        ],
+        "Others": [
+          {
+            "Name": "ENAME",
+            "Type": "varchar"
+          },
+          {
+            "Name": "JOB",
+            "Type": "varchar"
+          },
+          {
+            "Name": "MGR",
+            "Type": "int"
+          },
+          {
+            "Name": "HIREDATE",
+            "Type": "date"
+          },
+          {
+            "Name": "SAL",
+            "Type": "int"
+          },
+          {
+            "Name": "COMM",
+            "Type": "int"
+          },
+          {
+            "Name": "SLACKER",
+            "Type": "boolean"
+          }
+        ]
+      },
+      {
+        "TableName": "EMP_B",
+        "PKeys": [
+          {
+            "Name": "EMPNO",
+            "Type": "int"
+          }
+        ],
+        "FKeys": [
+          {
+            "FName": "DEPTNO",
+            "PName": "DEPTNO",
+            "PTable": "1"
+          }
+        ],
+        "Others": [
+          {
+            "Name": "ENAME",
+            "Type": "varchar"
+          },
+          {
+            "Name": "JOB",
+            "Type": "varchar"
+          },
+          {
+            "Name": "MGR",
+            "Type": "int"
+          },
+          {
+            "Name": "HIREDATE",
+            "Type": "date"
+          },
+          {
+            "Name": "SAL",
+            "Type": "int"
+          },
+          {
+            "Name": "COMM",
+            "Type": "int"
+          },
+          {
+            "Name": "SLACKER",
+            "Type": "boolean"
+          },
+          {
+            "Name": "BIRTHDATE",
+            "Type": "date"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }
+  

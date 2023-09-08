@@ -1,0 +1,2 @@
+col_dep: Employee.ManagerId <- Employee.Id
+col_val: Employee.ManagerId | int+null

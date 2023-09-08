@@ -1,0 +1,22 @@
+{
+  "Problem Number": "626",
+  "Tables": [
+    {
+      "TableName": "seat",
+      "PKeys": [
+        {
+          "Name": "id",
+          "Type": "int"
+        }
+      ],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "student",
+          "Type": "varchar"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

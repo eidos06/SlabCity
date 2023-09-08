@@ -1,0 +1,29 @@
+{
+    "Problem Number": "1468",
+    "Tables": [
+      {
+        "TableName": "Salaries",
+        "PKeys": [          {
+            "Name": "company_id",
+            "Type": "int"
+          },
+          {
+            "Name": "employee_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+
+          {
+            "Name": "employee_name",
+            "Type": "varchar"
+          },
+          {
+            "Name": "salary",
+            "Type": "int"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

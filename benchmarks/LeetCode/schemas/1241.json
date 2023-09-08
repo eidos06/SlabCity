@@ -1,0 +1,21 @@
+{
+  "Problem Number": "1241",
+  "Tables": [
+    {
+      "TableName": "Submissions",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "sub_id",
+          "Type": "int"
+        },
+        {
+          "Name": "parent_id",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}

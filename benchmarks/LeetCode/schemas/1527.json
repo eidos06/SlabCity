@@ -1,0 +1,24 @@
+{
+    "Problem Number": "1527",
+    "Tables": [
+      {
+        "TableName": "Patients",
+        "PKeys": [          {
+            "Name": "patient_id",
+            "Type": "int"
+          }],
+        "FKeys": [],
+        "Others": [
+          {
+            "Name": "patient_name",
+            "Type": "varchar"
+          },
+          {
+            "Name": "conditions",
+            "Type": "varchar"
+          }
+        ]
+      }
+    ],
+    "Tuples": []
+  }

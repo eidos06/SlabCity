@@ -1,0 +1,52 @@
+{
+    "Problem Number": "1809",
+    "Tables": [
+        {
+            "TableName": "Playback",
+            "PKeys": [
+              {
+                "Name": "session_id",
+                "Type": "int"
+              }
+            ],
+            "FKeys": [],
+            "Others": [
+                {
+                    "Name":"customer_id",
+                    "Type":"int"
+                },
+                {
+                    "Name":"start_time",
+                    "Type":"int"
+                },
+                {
+                    "Name":"end_time",
+                    "Type":"int"
+                }
+            ]
+          },
+      {
+        "TableName": "Ads",
+        "PKeys": [
+          {
+            "Name": "ad_id",
+            "Type": "int"
+          }
+        ],
+            "FKeys": [],
+        "Others": [
+            {
+                "Name":"customer_id",
+                "Type":"int"
+            },
+            {
+                "Name":"timestamp",
+                "Type":"int"    
+            }
+        ]
+      }
+    ],
+    "Tuples": [
+    ]
+  
+  }

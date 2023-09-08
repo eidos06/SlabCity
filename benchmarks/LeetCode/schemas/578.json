@@ -1,0 +1,37 @@
+{
+  "Problem Number": "578",
+  "Tables": [
+    {
+      "TableName": "survey_log",
+      "PKeys": [],
+      "FKeys": [],
+      "Others": [
+        {
+          "Name": "id",
+          "Type": "int"
+        },
+        {
+          "Name": "action",
+          "Type": "enum,show,answer,skip"
+        },
+        {
+          "Name": "question_id",
+          "Type": "int"
+        },
+        {
+          "Name": "answer_id",
+          "Type": "int"
+        },
+        {
+          "Name": "q_num",
+          "Type": "int"
+        },
+        {
+          "Name": "timestamp",
+          "Type": "int"
+        }
+      ]
+    }
+  ],
+  "Tuples": []
+}
