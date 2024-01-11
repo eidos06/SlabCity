@@ -1,0 +1,5 @@
+Faker==22.2.0
+networkx==3.2.1
+numpy==1.26.3
+python-dateutil==2.8.2
+six==1.16.0

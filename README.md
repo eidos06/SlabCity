@@ -17,6 +17,7 @@ A brief structure is shown below:
 ├── benchmarks
 │   ├── LeetCode # leetcode benchmark used in paper
 │   └── CalCite # calcite benchmark used in paper
+|   └── data # generation scripts used in paper
 └── README.md
 ```
 
@@ -51,3 +52,12 @@ which means this query is crawled from LeetCode problem `1308`, and a unique id 
 Primary keys are recorded in `PKeys` array, Foreign keys are recorded in `FKeys` array, and other columns are recorded in `Others` array,
 
 Besides these integrity constraints, LeetCode problems often have more constraints. A complete set of constraints can be can be found in `contraints` folder under `LeetCode` benchmark folder. 
+
+### Data
+
+`benchmarks/data` folder contains all scripts used to generate databases for each benchmark. Detailed instructions can be found in `README.md` under that folder.
+
+
+## Citation
+If you use this benchmark, please cite our paper:
+https://dl.acm.org/doi/abs/10.14778/3611479.3611515
